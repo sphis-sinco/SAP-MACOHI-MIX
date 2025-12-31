@@ -18,9 +18,9 @@ function updateSprite()
 	portLevel = global.levelSelectChar == 1
 	macohiLevel = global.levelSelectChar == 2
 	
-	checkForLevelNumber(0, sincoLevel, spr_levelSelectChar_sinco, "Osin")
-	checkForLevelNumber(0, portLevel, spr_levelSelectChar_portilizen, "String Quest")
-	checkForLevelNumber(0, macohiLevel, spr_levelSelectChar_macohi, "Coming Soon")
+	checkForLevelNumber(0, sincoLevel, spr_levelSelectIcon_osin, "Osin")
+	checkForLevelNumber(0, portLevel, spr_levelSelectIcon_stringquest, "String Quest")
+	checkForLevelNumber(0, macohiLevel, spr_levelSelectIcon_comingSoon, "Coming Soon")
 	
 
 	x = ((window_get_width() / 2) + (sprite_width / 2))

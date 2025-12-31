@@ -17,6 +17,6 @@ function updateSprite()
 		sprite_index = spr_levelSelectChar_macohi
 	}
 
-	x = ((window_get_width() / 2) - (sprite_width / 0.5))
+	x = ((window_get_width() / 2) - (sprite_width / 0.75))
 	y = ((window_get_height() / 2) - (sprite_height / 2))
 }

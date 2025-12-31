@@ -1,9 +1,5 @@
 /// @description drawTexts
 
-sincoLevel = global.levelSelectChar == 0
-portLevel = global.levelSelectChar == 1
-macohiLevel = global.levelSelectChar == 2
-
 char_name = ""
 
 if (sincoLevel) char_name = "Sinco"
