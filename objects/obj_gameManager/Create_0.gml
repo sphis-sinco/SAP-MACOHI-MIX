@@ -32,7 +32,9 @@ function saveBackend() {
 
 function saveGlobal() {
 	show_debug_message("saving GLOBAL")
+	ini_write_string("GLOBAL", "levelSelectChar", global.levelSelectChar);
 }
 
 function loadGlobal() {
+	global.levelSelectChar = int64(ini_read_string("GLOBAL", "levelSelectChar", "0"))
 }
