@@ -4,7 +4,7 @@ if (room == rm_init) then {
 	global.custom_savepath_prefix = "../../../../../macohi/SAP_MACOHI_MIX/"
 	
 	global.levelSelectChar = 0
-	global.levelSelectIcon = "osin"
+	global.levelSelectIcon = 0
 
 	show_debug_log(debug_mode)
 

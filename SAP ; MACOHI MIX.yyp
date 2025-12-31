@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -23,9 +24,12 @@
   },
   "name":"SAP ; MACOHI MIX",
   "resources":[
+    {"id":{"name":"font_VCR_16x","path":"fonts/font_VCR_16x/font_VCR_16x.yy",},},
+    {"id":{"name":"font_VCR_32x","path":"fonts/font_VCR_32x/font_VCR_32x.yy",},},
     {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},},
     {"id":{"name":"obj_levelSelectChar","path":"objects/obj_levelSelectChar/obj_levelSelectChar.yy",},},
     {"id":{"name":"obj_levelSelectIcon","path":"objects/obj_levelSelectIcon/obj_levelSelectIcon.yy",},},
+    {"id":{"name":"obj_levelSelectManager","path":"objects/obj_levelSelectManager/obj_levelSelectManager.yy",},},
     {"id":{"name":"obj_title_play","path":"objects/obj_title_play/obj_title_play.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_levelSelect","path":"rooms/rm_levelSelect/rm_levelSelect.yy",},},
@@ -33,6 +37,7 @@
     {"id":{"name":"spr_debug_gameManager","path":"sprites/spr_debug_gameManager/spr_debug_gameManager.yy",},},
     {"id":{"name":"spr_debug_levelSelectChar","path":"sprites/spr_debug_levelSelectChar/spr_debug_levelSelectChar.yy",},},
     {"id":{"name":"spr_debug_levelSelectIcon","path":"sprites/spr_debug_levelSelectIcon/spr_debug_levelSelectIcon.yy",},},
+    {"id":{"name":"spr_debug_levelSelectManager","path":"sprites/spr_debug_levelSelectManager/spr_debug_levelSelectManager.yy",},},
     {"id":{"name":"spr_levelSelectChar_macohi","path":"sprites/spr_levelSelectChar_macohi/spr_levelSelectChar_macohi.yy",},},
     {"id":{"name":"spr_levelSelectChar_portilizen","path":"sprites/spr_levelSelectChar_portilizen/spr_levelSelectChar_portilizen.yy",},},
     {"id":{"name":"spr_levelSelectChar_sinco","path":"sprites/spr_levelSelectChar_sinco/spr_levelSelectChar_sinco.yy",},},
