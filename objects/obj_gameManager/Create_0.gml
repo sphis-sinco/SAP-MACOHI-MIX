@@ -1,8 +1,8 @@
-// @description functions
+/// @description functions
 
 function openSave() {
 	show_debug_message("opening save")
-	ini_open(global.custom_savepath_prefix + ((debug_mode) ? "debug/" : "release/" ) + "saves/save.ini");
+	ini_open(global.custom_savepath_prefix + ((debug_mode) ? "debug/" : "release/" ) + "save.ini");
 }
 
 function closeSave() {

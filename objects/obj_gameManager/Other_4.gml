@@ -2,7 +2,9 @@
 
 if (room == rm_init) then {
 	global.custom_savepath_prefix = "../../../../../macohi/SAP_MACOHI_MIX/"
+	
 	global.levelSelectChar = 0
+	global.levelSelectIcon = "osin"
 
 	show_debug_log(debug_mode)
 
@@ -17,6 +19,8 @@ if (room == rm_init) then {
 		loadGlobal()
 	}
 	closeSave()
+	
+	// show_debug_message("global: " + global)
 
 	room = rm_title
 }
